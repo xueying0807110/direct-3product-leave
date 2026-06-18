@@ -138,7 +138,6 @@
       list-style: none;
       background: #fff;
       border: 0;
-      min-height: 328px;
       max-height: none;
       overflow: visible;
     }
@@ -193,7 +192,11 @@
 
     .decision-message {
       display: none;
-      margin: auto 0 12px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 60px;
+      margin: 0;
       padding: 0;
       background: transparent;
       border: 0;
@@ -207,6 +210,10 @@
     }
 
     .button-row {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       margin-top: 0;
